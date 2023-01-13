@@ -11,6 +11,11 @@
 		44B6F5662971816100758289 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6F5652971816100758289 /* ContentView.swift */; };
 		44B6F5682971816300758289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B6F5672971816300758289 /* Assets.xcassets */; };
 		44B6F56B2971816300758289 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B6F56A2971816300758289 /* Preview Assets.xcassets */; };
+		44B6F5722971820400758289 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6F5712971820300758289 /* MyCard.swift */; };
+		44B6F574297182AB00758289 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6F573297182AB00758289 /* Data.swift */; };
+		44B6F576297182F300758289 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6F575297182F300758289 /* MyList.swift */; };
+		44B6F5782971838100758289 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6F5772971838100758289 /* SceneDelegate.swift */; };
+		44B6F57A2971883100758289 /* MyCardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6F5792971883100758289 /* MyCardDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		44B6F5652971816100758289 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44B6F5672971816300758289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B6F56A2971816300758289 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44B6F5712971820300758289 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		44B6F573297182AB00758289 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		44B6F575297182F300758289 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		44B6F5772971838100758289 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44B6F5792971883100758289 /* MyCardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				44B6F5632971816100758289 /* prova_hcatuiApp.swift */,
 				44B6F5652971816100758289 /* ContentView.swift */,
+				44B6F5772971838100758289 /* SceneDelegate.swift */,
+				44B6F5712971820300758289 /* MyCard.swift */,
+				44B6F575297182F300758289 /* MyList.swift */,
+				44B6F5792971883100758289 /* MyCardDetails.swift */,
+				44B6F573297182AB00758289 /* Data.swift */,
 				44B6F5672971816300758289 /* Assets.xcassets */,
 				44B6F5692971816300758289 /* Preview Content */,
 			);
@@ -139,6 +154,11 @@
 			files = (
 				44B6F5662971816100758289 /* ContentView.swift in Sources */,
 				44B6F5642971816100758289 /* prova_hcatuiApp.swift in Sources */,
+				44B6F5722971820400758289 /* MyCard.swift in Sources */,
+				44B6F574297182AB00758289 /* Data.swift in Sources */,
+				44B6F576297182F300758289 /* MyList.swift in Sources */,
+				44B6F57A2971883100758289 /* MyCardDetails.swift in Sources */,
+				44B6F5782971838100758289 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

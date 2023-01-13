@@ -11,7 +11,7 @@ import SwiftUI
 struct prova_hcatuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			ContentView()
         }
     }
 }

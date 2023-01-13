@@ -8,19 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	var data = [Data(id: 1, title: "Card 1", description: "This is the first card", section: 1),
+				Data(id: 2, title: "Card 2", description: "This is the second card", section: 1),
+				Data(id: 3, title: "Card 3", description: "This is the third card", section: 2),
+				Data(id: 4, title: "Card 4", description: "This is the fourth card", section: 2)
+				]
+	var body: some View {
+		MyList(data: data)
+	}
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
+
